@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+body{
+    background: rgb(224, 217, 151);
+}
+td {
+    font-size: 0.3rem;
+    border:1px solid black;
+}
+tr {
+    height: 1.5rem;
+    border:1px solid black;
+}
+th {
+    width: 20vw;
+    font-size: 0.5rem;
+    border:1px solid black;
+    text-align: start;
+    padding-left: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    margin-left: 10vw;
+    background: rgb(167, 173, 150);
+}
+th.title {
+    font-size: 1.2rem;
+    color:rgb(49, 29, 46);
+}
+.imageAvatar {
+    display: flex;
+    justify-content: center;
+}
+img.avatar {
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+th.socialMedias a {
+    padding-left: 1rem;
+    font-size: 2rem;
+}
